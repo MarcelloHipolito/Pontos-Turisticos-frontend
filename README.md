@@ -28,7 +28,7 @@ Este projeto é um aplicativo mobile desenvolvido em React Native usando Expo, q
 - Node.js instalado
 - Expo CLI instalado globalmente (`npm install -g expo-cli`)
 - Emulador ou dispositivo móvel para executar o app
-- API backend rodando e acessível (exemplo em `http://192.168.0.188:5000/api/pontos`)
+- API backend rodando e acessível (exemplo em `http://000.000.0.000:5000/api/pontos`)
 
 ### Passos para rodar o app
 
