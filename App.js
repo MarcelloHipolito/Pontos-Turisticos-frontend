@@ -11,7 +11,7 @@ export default function App() {
   const [foto, setFoto] = useState(null);
   const [localizacao, setLocalizacao] = useState('');
 
-  const API_URL = 'http://192.168.0.188:5000/api/pontos'; // troque pelo seu IP local
+  const API_URL = 'http://000.000.0.000:5000/api/pontos'; // troque pelo seu IP local
 
   useEffect(() => {
     fetchPontos();
@@ -110,7 +110,7 @@ export default function App() {
           <Text style={styles.text}>{ponto.localizacao}</Text>
           {ponto.foto && (
             <Image
-              source={{ uri: `http://192.168.0.188:5000${ponto.foto}` }}
+              source={{ uri: `http://000.000.0.000:5000${ponto.foto}` }}
               style={styles.image}
             />
           )}
